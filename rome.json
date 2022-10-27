@@ -1,0 +1,14 @@
+{
+  "formatter": {
+    "ignore": [
+      "/node_modules",
+      "/.next"]
+  },
+  "linter": {
+    "enabled": true,
+    "ignore": [
+      "/node_modules",
+      "/.next"
+    ]
+  }
+}

@@ -1,17 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': 18.11.7
-  '@types/react': 18.0.23
-  '@types/react-dom': 18.0.7
-  eslint: 8.26.0
-  eslint-config-next: 13.0.0
+  '@types/node': ^18.11.7
+  '@types/react': ^18.0.23
+  '@types/react-dom': ^18.0.7
+  eslint: ^8.26.0
+  eslint-config-next: ^13.0.0
   lefthook: ^1.1.3
-  next: 13.0.0
-  react: 18.2.0
-  react-dom: 18.2.0
+  next: ^13.0.0
+  prettier: ^2.7.1
+  react: ^18.2.0
+  react-dom: ^18.2.0
+  rome: ^0.10.1-next
   sanitize.css: ^13.0.0
-  typescript: 4.8.4
+  typescript: ^4.8.4
 
 dependencies:
   next: 13.0.0_biqbaboplfbrettd7655fr4n2y
@@ -26,6 +28,8 @@ devDependencies:
   eslint: 8.26.0
   eslint-config-next: 13.0.0_wyqvi574yv7oiwfeinomdzmc3m
   lefthook: 1.1.3
+  prettier: 2.7.1
+  rome: 0.10.1-next
   typescript: 4.8.4
 
 packages:
@@ -229,6 +233,72 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: true
+
+  /@rometools/cli-darwin-arm64/0.10.1-next:
+    resolution: {integrity: sha512-nyNijAs52mIE6oAJOXEGgnJfiBRP2tN+puQbi88o4ktmSXR43XnXs2fTme7xXRwzZ6uwoc9kVRAbHsgFZpYgMA==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-darwin-x64/0.10.1-next:
+    resolution: {integrity: sha512-O+1tDZKITaf/WaF3r1PnANGhm8Ex6IwrHXAFNVHEdy496jHfBGIzZ9wf6g8o2INpUe+OM6v6knA9wwjbMPmzSw==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-linux-arm64/0.10.1-next:
+    resolution: {integrity: sha512-aZGSrTaPzcHarlrA8hAO2ZbpoF1yl5BwhX93U5eM92jEJg9/NPl0RuVmZaiOIVN6gUu7Xv2PDE9S0ZqPUugcAA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-linux-x64/0.10.1-next:
+    resolution: {integrity: sha512-fVN7HhUVSEANQL8qFJbteX/8wLIFc+1HtTRxwoGEbmSZfXbIPalFuvkQ3o0pke2+LdpU1URiLzMIx+5gBwPjeA==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-win32-arm64/0.10.1-next:
+    resolution: {integrity: sha512-UMkSgQMslkTQ/QvwTdOsmQWlTc2RgiA4fsHv9thcDHdrV13+kUCsYQV5EA27ROVCFFdyxAG3OrZiRPbd92mHHA==}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/cli-win32-x64/0.10.1-next:
+    resolution: {integrity: sha512-1ZCdAZKtB/bzFDJtbSECfCE3f+d00n8+/8AShOZ4+gKTtJZMOZ56XWD+9MvLq16DUogyGKwR0IzVgIUzvOQGwQ==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/wasm-bundler/0.10.1-next:
+    resolution: {integrity: sha512-yREKu7ZgmKfCOvxYvX7EmJu65mNT+BioaJf3Vep/mCI+/S6WJotMomNogeMzfrWQ06VhEVkqebV4x8W1hFLMjg==}
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/wasm-nodejs/0.10.1-next:
+    resolution: {integrity: sha512-4aiPUhsumpzj497ipSAqQhJTT12hVS2IJaVe4hztGxqZgLlrm1hbWWal/XzUMYYh30iGAaqZIfR8vuA4E8WCoQ==}
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rometools/wasm-web/0.10.1-next:
+    resolution: {integrity: sha512-FjPkty4Rab2fEciL4tonpDwHpOyHVgAdxhz3BhSnDlEMCW1VnFCpk45v/2srDrBCY+W23++zQyBbDoZKbjIbJA==}
+    requiresBuild: true
+    dev: true
+    optional: true
 
   /@rushstack/eslint-patch/1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
@@ -1615,6 +1685,12 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
   /prop-types/15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
     dependencies:
@@ -1704,6 +1780,23 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.3
+    dev: true
+
+  /rome/0.10.1-next:
+    resolution: {integrity: sha512-WB+zT+NGE6pqSmNgemlAwreE2BwWLi6rQ3g8L1IlBOvBI8QB0iRMgYRmdVxBMjQ2X6CDnCuDnbKOE3uqC50qvw==}
+    engines: {node: '>=14.*'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@rometools/cli-darwin-arm64': 0.10.1-next
+      '@rometools/cli-darwin-x64': 0.10.1-next
+      '@rometools/cli-linux-arm64': 0.10.1-next
+      '@rometools/cli-linux-x64': 0.10.1-next
+      '@rometools/cli-win32-arm64': 0.10.1-next
+      '@rometools/cli-win32-x64': 0.10.1-next
+      '@rometools/wasm-bundler': 0.10.1-next
+      '@rometools/wasm-nodejs': 0.10.1-next
+      '@rometools/wasm-web': 0.10.1-next
     dev: true
 
   /run-parallel/1.2.0:
