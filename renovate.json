@@ -1,7 +1,22 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    "rangeStrategy": "bump"
-  ]
+  "extends": ["config:base" , ":disableRateLimiting"],
+  "semanticCommits": "enabled",
+  "rangeStrategy": "bump",
+  "rebaseWhen": "conflicted",
+    "packageRules": [
+    {
+      "groupName": "devDependencies (non-major)",
+      "automerge": "true",
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["patch", "minor"],
+      "schedule": ["every weekend"]
+    },
+    {
+      "groupName": "dependencies (non-major)",
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["patch", "minor"],
+      "schedule": ["every weekend"]
+    },
+      ]
 }
