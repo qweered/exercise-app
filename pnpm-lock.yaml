@@ -12,7 +12,7 @@ specifiers:
   prisma: ^4.5.0
   react: ^18.2.0
   react-dom: ^18.2.0
-  rome: ^0.10.1-nightly.a9db0f0
+  rome: ^10.0.1
   sanitize.css: ^13.0.0
   typescript: ^4.8.4
 
@@ -31,7 +31,7 @@ devDependencies:
   lefthook: 1.1.4
   prettier: 2.7.1
   prisma: 4.5.0
-  rome: 0.10.1-nightly.a9db0f0
+  rome: 10.0.1
   typescript: 4.8.4
 
 packages:
@@ -241,48 +241,48 @@ packages:
     requiresBuild: true
     dev: true
 
-  /@rometools/cli-darwin-arm64/0.10.1-nightly.a9db0f0:
-    resolution: {integrity: sha512-XYJ5G5OmHT5dkkkL/5+Z4Xkkv+QerdeiCeu4rqsoEEEcoCcw2pfn5wY/B/vgwTPkEcpzIsiQs8B3L1jaEiLXEg==}
+  /@rometools/cli-darwin-arm64/10.0.1:
+    resolution: {integrity: sha512-MwQjk3uhZrCu6LgIwJHREAsVt/mUQTGv7p8iosfaF8lCIxMVjyS+akbF/QcBufyW5sFtHYNWUEe/uKPHK4E//A==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-darwin-x64/0.10.1-nightly.a9db0f0:
-    resolution: {integrity: sha512-MaYWiJoocO29EYEFECoO1bqK6sjXcWOZ+7Ddf3DeWgIXoUqX36l6HoN8P+Qwp5almj0TU4CMAIKBfWPRUDoUoQ==}
+  /@rometools/cli-darwin-x64/10.0.1:
+    resolution: {integrity: sha512-n010Wc/z9L8wRkRnR5boMhdWgDVGrTG/i7zL8u/3+F5aSUgLCywf9F/b3ex74tCJJfcwBLlhaAqAVQX6U1bIkA==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-linux-arm64/0.10.1-nightly.a9db0f0:
-    resolution: {integrity: sha512-x7Tt1WtDZomrH4pCa04dYjtSi2vDv+Ys9W06pV+mM17/39IY5H1VorsxZxz7uqdohI5i1TXJy21ytUXuOc8Izg==}
+  /@rometools/cli-linux-arm64/10.0.1:
+    resolution: {integrity: sha512-JljZsnud1KCfe36VNsVh/LrYdAzgbKbcsCTzeCjW9ROkMyNj8pmQ/gIUFxZ+PyhMFgowHIDGihoNf4m+pgpxkA==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-linux-x64/0.10.1-nightly.a9db0f0:
-    resolution: {integrity: sha512-TeoGAfxQWWc+q1djTqiUnkMYazcyUtRAJsIsOI+I24f0ht7HbNjZRfe6ZYjm2kvJvuSSHK5TXsktF8Syjary6A==}
+  /@rometools/cli-linux-x64/10.0.1:
+    resolution: {integrity: sha512-jXIqd9iDyZUexk63CRfAXDA4zNDUHpErUmCejjGab3dhDt1KA40fDqKb+kxZpAhY3tQoWNSNQyo750zX5NawLw==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-win32-arm64/0.10.1-nightly.a9db0f0:
-    resolution: {integrity: sha512-2azu2b96WgORMdHJnQNpjDjg/R1E7T3x7yIF5cNueqYQuZOGV6Vf0ixyXRjly+mr/Jp3rtwa4oDLK4uM5QCDyA==}
+  /@rometools/cli-win32-arm64/10.0.1:
+    resolution: {integrity: sha512-G/toRrKPhhi7SMYMyROq/E2c8/4xRX/67vFhVihuMvDDzhanIb99hEt5MMbM4HbYK1nnZBPyLN6LxVsxm9M9hA==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-win32-x64/0.10.1-nightly.a9db0f0:
-    resolution: {integrity: sha512-bjvb0Q0FxfeXuIeUpRmFuv1r+lfmQsGZxOiV31QqFRaTBrxaKCLFNjKhM1KYC4ELZE7sFz6LGTMHacH1H3NK2Q==}
+  /@rometools/cli-win32-x64/10.0.1:
+    resolution: {integrity: sha512-y299+VGoBufZntZj0Xz7w9DODU+6E5giXStfBDoa0fspXGNkYyYfD+HC6j9gUv4zpMZJ607XVvVHjpfwM/3ftA==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -1783,18 +1783,18 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rome/0.10.1-nightly.a9db0f0:
-    resolution: {integrity: sha512-3Dm17F3a4Wp76oOy3098EWWFNa9iUFE172aomGr/AOrt8nmxceFbhAbhgMYW3nlcXiahkSHNoid20ysw8ovbgw==}
+  /rome/10.0.1:
+    resolution: {integrity: sha512-RfaDa+cSustBsjX6bj3fWqEhoNxXrK1uNgKHpkCHAqp20QMJXnCRtbokhirNMe0utyGI9GTO/sDoK7hJP7O8Bw==}
     engines: {node: '>=14.*'}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      '@rometools/cli-darwin-arm64': 0.10.1-nightly.a9db0f0
-      '@rometools/cli-darwin-x64': 0.10.1-nightly.a9db0f0
-      '@rometools/cli-linux-arm64': 0.10.1-nightly.a9db0f0
-      '@rometools/cli-linux-x64': 0.10.1-nightly.a9db0f0
-      '@rometools/cli-win32-arm64': 0.10.1-nightly.a9db0f0
-      '@rometools/cli-win32-x64': 0.10.1-nightly.a9db0f0
+      '@rometools/cli-darwin-arm64': 10.0.1
+      '@rometools/cli-darwin-x64': 10.0.1
+      '@rometools/cli-linux-arm64': 10.0.1
+      '@rometools/cli-linux-x64': 10.0.1
+      '@rometools/cli-win32-arm64': 10.0.1
+      '@rometools/cli-win32-x64': 10.0.1
     dev: true
 
   /run-parallel/1.2.0:
